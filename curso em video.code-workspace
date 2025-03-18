@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../curso em video"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Curso One - Oracle",
+		"liveServer.settings.port": 5501
+	}
+}

@@ -1,0 +1,50 @@
+body{
+    font-size:40px;
+    margin: auto;
+    color: aliceblue;
+    background-color: rgb(253, 239, 217);
+}
+.container_superior{
+    background-color: rgb(69, 99, 182);
+    display:flex;
+    flex-direction:inherit;
+    padding-left: 50px;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.container_inferior{
+    padding-top: 50px;
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(69, 99, 182);
+}
+input{
+    width: 200px;
+    height: 30px;
+    background-color: azure
+}
+ol{
+    color: black;
+    text-align: center;
+}
+li{
+    color: rgb(69, 99, 182);
+    list-style-type: none;
+    text-align: center;
+}
+.container_botao{
+    text-align: center;
+}
+#botao_sortear{
+    width: 160px;
+}

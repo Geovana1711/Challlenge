@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Amigo Secreto</title>
+    <link rel="shortcut icon" href="img/presente (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+    <div class="container_superior">
+       <div class="texto_superior"> 
+        <h1>Amigo Secreto</h1>
+        <p>Escreva o nome dos amigos que serão sorteados na caixa abaixo e sortei no botão em seguida</p>
+        </div>
+        <img src="img/mulher-com-um-chapeu-de-papai-noel-segurando-uma-caixa-de-presentes_112255-5170-removebg-preview.png" alt="icone de uma mulher segurando um presente">
+    </div>
+        <div class="container_inferior">
+            <input type="text" name="entrada_dos_nome_sorteados">
+            <button onclick="apresentar_nomes()">Adicionar</button>
+        </div>
+       <div class="container_botao">
+            <button onclick="sortear_amigos()" id="botao_sortear" disabled>Sortear Amigo</button>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
